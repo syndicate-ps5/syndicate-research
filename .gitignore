@@ -1,0 +1,41 @@
+# Geheimnisse und Zugangsdaten
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.kdbx
+id_rsa
+id_ed25519
+credentials*
+secrets*
+*.token
+.secrets/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editoren und lokale Werkzeuge
+.idea/
+.vscode/
+*.swp
+*~
+
+# Laufzeit, Abhängigkeiten und Bauergebnisse
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
+
+# Logs und lokale Arbeitsdateien
+*.log
+logs/
+tmp/
+temp/
