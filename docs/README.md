@@ -21,6 +21,7 @@ Aufgenommen werden nur verifizierte Inhalte mit Quellenangabe. Interne oder unve
 | [`glossary/`](../glossary/README.md) | Festgelegte Begriffe |
 | [`history-remediation.md`](history-remediation.md) | Plan zur späteren Bereinigung der Git-Historie, ohne Umschreibung |
 | [`pruefung-und-veroeffentlichung.md`](pruefung-und-veroeffentlichung.md) | Prüfung und Aufnahme neuer Forschungssätze |
+| [`schnittstelle-research-lab.md`](schnittstelle-research-lab.md) | Vorgeschlagene Schnittstelle zum Labor, ohne Datenübernahme |
 
 Sicherheitsgrenzen stehen in [`SECURITY.md`](../SECURITY.md). Beiträge folgen [`CONTRIBUTING.md`](../CONTRIBUTING.md).
 

@@ -14,8 +14,8 @@ Aufgenommen werden nur verifizierte Inhalte mit Quellenangabe. Interne oder unve
 
 Ein Datensatz hat vier Sammlungen. `sources` nennt URL, Abrufdatum und, soweit die Seite es hergibt, ein Veröffentlichungsdatum. `models` nennt Modellgruppe, wörtliche Bezeichnungen und einzelne Verkaufsnummern. `firmware` nennt die Versionsnummer, ihre Position auf der Sony-Liste und nur die Sätze, die hier wörtlich übernommen sind. `compatibility` nennt die Modellgruppen und alle erfassten Firmware-IDs. `defaultStatus` ist Unknown. Nur `entries` sind Ausnahmen.
 
-`featureDetail` ist `Publicly Documented`, wenn zu dieser Version mindestens ein wörtlicher Satz im Datensatz steht. Sonst ist `featureDetail` Unknown. Das Unknown bezieht sich auf den hier nicht übernommenen Merkmalstext, nicht auf die Existenz der Versionsnummer.
+`featureDetail` ist für jede Versionsnummer Unknown. Publicly Documented an einem Eintrag in `quotedStatements` bezeichnet nur diesen einen Satz, nicht die vollständige Beschreibung aller Funktionen dieser Version. Die Existenz der Versionsnummer selbst bleibt über `evidence` Publicly Documented, weil die Überschrift auf der Sony-Liste steht.
 
 `published` ist `null` und `publishedStatus` ist Unknown, wenn die Quelle kein Veröffentlichungsdatum nennt. Das Abrufdatum ist kein Veröffentlichungsdatum.
 
-Die Prüfung und die Aufnahme neuer Sätze stehen in [`docs/pruefung-und-veroeffentlichung.md`](../docs/pruefung-und-veroeffentlichung.md).
+Die Prüfung und die Aufnahme neuer Sätze stehen in [`docs/pruefung-und-veroeffentlichung.md`](../docs/pruefung-und-veroeffentlichung.md). Die vorgeschlagene Labor-Schnittstelle steht in [`docs/schnittstelle-research-lab.md`](../docs/schnittstelle-research-lab.md) und ist keine Datenübernahme.

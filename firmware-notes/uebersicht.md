@@ -14,9 +14,9 @@ Quelle: <https://www.playstation.com/en-us/support/hardware/ps5/system-software-
 
 Die Seite zeigt 40 Überschriften. Die erste ist `26.07-14.23.00`, die letzte auf der Seite ist `23.01-07.01.00`. Die Reihenfolge im Datenbestand folgt der Seite, beginnend mit der ersten Überschrift. Ein Veröffentlichungsdatum steht an diesen Überschriften nicht. Ob es ältere Versionen gibt, die auf der Seite fehlen, ist Unknown.
 
-Die Nummern, die wörtlichen Sätze und die offene Fragen stehen in [`data/research.json`](../data/research.json). Für `26.07-14.23.00` ist der Satz übernommen, dass Sony von Security-Fixes schreibt, ohne deren Inhalt zu nennen. Für `26.06-14.00.00` und `26.02-13.00.00` ist der Satz übernommen, dass die dort beschriebene Funktion „available only on PS5 Pro“ ist. Für `24.06-10.00.00` ist der Satz übernommen, dass Adaptive Charging für die Modellgruppe CFI-2000 am USB-Type-C-Anschluss genannt wird. Für alle übrigen Nummern ist der Merkmalstext Unknown.
+Die Nummern, die wörtlichen Sätze und die offene Fragen stehen in [`data/research.json`](../data/research.json). Für `26.07-14.23.00` ist nur der Satz übernommen, dass Sony von Security-Fixes schreibt, ohne deren Inhalt zu nennen. Für `26.06-14.00.00` und `26.02-13.00.00` ist nur der Satz übernommen, dass die dort beschriebene Funktion „available only on PS5 Pro“ ist. Für `24.06-10.00.00` ist nur der Satz übernommen, dass Adaptive Charging für die Modellgruppe CFI-2000 am USB-Type-C-Anschluss genannt wird. Publicly Documented gilt jeweils für diesen einen Satz. `featureDetail` bleibt Unknown, weil die übrigen Funktionen der Version nicht übernommen sind.
 
-Die Verteilerseite <https://www.playstation.com/en-us/support/hardware/ps5/system-software/> nennt in dem am selben Tag abgerufenen HTML keine Versionsnummer dieser Form. Welche Datei zu welcher Nummer gehört, ist Unknown.
+Die Verteilerseite <https://www.playstation.com/en-us/support/hardware/ps5/system-software/> nennt in dem am selben Tag abgerufenen HTML keine Versionsnummer dieser Form. Die Quelle `sony-ps5-system-software-distribution` bleibt deshalb ohne Firmware-Satz. Der Grund steht im Feld `assignmentNote` dieser Quelle. Welche Datei zu welcher Nummer gehört, ist Unknown.
 
 ## Kompatibilität
 

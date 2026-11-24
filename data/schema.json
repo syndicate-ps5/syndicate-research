@@ -64,7 +64,12 @@
         "url": { "type": "string", "minLength": 1 },
         "retrieved": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
         "published": { "type": ["string", "null"] },
-        "publishedStatus": { "$ref": "#/$defs/evidence" }
+        "publishedStatus": { "$ref": "#/$defs/evidence" },
+        "assignmentNote": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Nur gesetzt, wenn die Quelle keinem Satz zugeordnet ist. Der Text nennt den Grund."
+        }
       }
     },
     "statement": {
@@ -127,7 +132,10 @@
           "type": "array",
           "items": { "$ref": "#/$defs/statement" }
         },
-        "featureDetail": { "$ref": "#/$defs/evidence" }
+        "featureDetail": {
+          "description": "Unknown bedeutet, dass die vollständige Funktionsbeschreibung dieser Version nicht übernommen ist. Ein belegter Einzelsatz steht getrennt in quotedStatements und ist nur dort Publicly Documented.",
+          "allOf": [{ "$ref": "#/$defs/evidence" }]
+        }
       }
     },
     "compatibility": {
