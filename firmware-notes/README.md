@@ -12,4 +12,4 @@ Jede Versionsangabe braucht eine Primärquelle, ein Abrufdatum und eine Evidenzs
 
 ## Aktueller Inhalt
 
-Keine Firmware-Einträge.
+[`system-software.md`](system-software.md) übernimmt den jüngsten Listeneintrag der öffentlichen Sony-Versionsliste und drei Modellbezüge, die diese Liste selbst nennt. Die übrige Merkmalsliste ist nicht kopiert. Nicht ausgewertete Modellbezüge derselben Liste sind Researching.

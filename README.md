@@ -8,7 +8,7 @@ SYNDICATE – Understand. Research. Develop. Document.
 
 Dieses Repository sammelt ausschließlich Inhalte, die geprüft, mit Quelle belegt und zur Veröffentlichung freigegeben sind. Es beschreibt keine fertige Plattform und kündigt keine Funktionen an.
 
-Der aktuelle Stand ist Phase 1 (Foundation): Ordnerstruktur und Arbeitsregeln. Weitere Forschungsphasen sind nicht begonnen.
+Der aktuelle Stand ist Phase 2 (Research). Die Notizen beschränken sich auf abgerufene Primärquellen. Offene Punkte sind Unknown oder Researching.
 
 ## Abgrenzung
 
@@ -42,9 +42,13 @@ Sachaussagen tragen zusätzlich eine Evidenzstufe. Die Stufen und die Aufnahmere
 ├── CONTRIBUTING.md
 ├── .gitignore
 ├── docs/
+├── LICENSING.md
+├── LICENSES/
+│   └── Apache-2.0.txt
 ├── hardware/
 │   ├── cfi-1000/
 │   ├── cfi-2000/
+│   ├── cfi-2100/
 │   └── cfi-7000/
 ├── firmware-notes/
 ├── architecture/
@@ -54,11 +58,11 @@ Sachaussagen tragen zusätzlich eine Evidenzstufe. Die Stufen und die Aufnahmere
 └── glossary/
 ```
 
-Jeder Ordner enthält eine `README.md` mit Zweck und Aufnahmeregel. Der einzige aufgenommene Sachinhalt sind die Modellgruppen, die Sony in der USB-Ports-Anleitung nennt. Siehe [`hardware/README.md`](hardware/README.md).
+Jeder Ordner enthält eine `README.md` mit Zweck und Aufnahmeregel. Belegte Modellgruppen, die Systemsoftware-Liste und die engen Architekturaussagen stehen in den jeweiligen Ordnern.
 
 ## Lizenz
 
-Eine `LICENSE`-Datei ist bewusst nicht enthalten. Die Lizenzwahl ist eine offene Entscheidung des Owners. Bis zu dieser Entscheidung räumt das Repository keine weitergehende Nutzung ein.
+Die Aufteilung ist in [`LICENSING.md`](LICENSING.md) vorbereitet: CC BY 4.0 für eigene Texte und Dokumentation, Apache-2.0 für eigenen Softwarecode. Eine Root-Datei `LICENSE` gibt es nicht, damit die Aufteilung nicht als Einzellizenz erscheint. Zitate bleiben bei ihren Rechteinhabern.
 
 ## Sicherheit und Mitarbeit
 

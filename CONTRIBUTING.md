@@ -30,7 +30,7 @@ Vor der Übernahme von Texten, Daten, Abbildungen oder Code aus fremden Projekte
 - Inhalte ohne erkennbare Lizenz werden nicht übernommen.
 - Proprietäre Materialien werden nicht über den kurzen, quellengebundenen Sachverhalt hinaus abgeschrieben.
 
-Für dieses Repository selbst gibt es noch keine `LICENSE`-Datei. Sie wird nur nach Freigabe des Owners hinzugefügt.
+Die Lizenzaufteilung steht in [`LICENSING.md`](LICENSING.md). Eigene Texte stehen unter CC BY 4.0, eigener Softwarecode unter Apache-2.0. Eine Root-Datei `LICENSE` wird nicht ergänzt, solange sie die Aufteilung verdecken würde. Fremde Zitate werden durch diese Lizenzen nicht neu lizenziert.
 
 ## Was nicht eingereicht wird
 
