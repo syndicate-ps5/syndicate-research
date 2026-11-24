@@ -20,6 +20,7 @@ Aufgenommen werden nur verifizierte Inhalte mit Quellenangabe. Interne oder unve
 | [`references/`](../references/README.md) | Quellenverzeichnis |
 | [`glossary/`](../glossary/README.md) | Festgelegte Begriffe |
 | [`history-remediation.md`](history-remediation.md) | Plan zur späteren Bereinigung der Git-Historie, ohne Umschreibung |
+| [`pruefung-und-veroeffentlichung.md`](pruefung-und-veroeffentlichung.md) | Prüfung und Aufnahme neuer Forschungssätze |
 
 Sicherheitsgrenzen stehen in [`SECURITY.md`](../SECURITY.md). Beiträge folgen [`CONTRIBUTING.md`](../CONTRIBUTING.md).
 
@@ -27,4 +28,4 @@ Verantwortungsvolle Sicherheitsforschung hat hier keinen eigenen Inhaltsordner. 
 
 ## Aktueller Inhalt
 
-Die Dokumentationssprache ist Deutsch. [`history-remediation.md`](history-remediation.md) beschreibt nur das spätere Vorgehen für die Git-Historie. Forschungsaussagen stehen in diesem Ordner nicht.
+Die Dokumentationssprache ist Deutsch. [`history-remediation.md`](history-remediation.md) beschreibt nur das spätere Vorgehen für die Git-Historie. [`pruefung-und-veroeffentlichung.md`](pruefung-und-veroeffentlichung.md) beschreibt das Prüfverfahren. Forschungsaussagen zu Modellen und Firmware stehen in den Fachordnern und in [`data/research.json`](../data/research.json).

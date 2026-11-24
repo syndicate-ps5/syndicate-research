@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/syndicate-ps5/syndicate-research/blob/cursor/phase-2-data-basis-e5bf/data/schema.json",
+  "title": "SYNDICATE research data 1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "retrieved",
+    "rules",
+    "sources",
+    "models",
+    "firmware",
+    "compatibility",
+    "openQuestions"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "retrieved": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "models": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/model" }
+    },
+    "firmware": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/firmware" }
+    },
+    "compatibility": { "$ref": "#/$defs/compatibility" },
+    "openQuestions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/question" }
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "enum": [
+        "Publicly Documented",
+        "Independently Reproduced",
+        "Internally Tested",
+        "Unverified",
+        "Unknown",
+        "Researching"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "url", "retrieved", "published", "publishedStatus"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "minLength": 1 },
+        "retrieved": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "published": { "type": ["string", "null"] },
+        "publishedStatus": { "$ref": "#/$defs/evidence" }
+      }
+    },
+    "statement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "text", "evidence", "sourceId", "retrieved"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "text": { "type": "string", "minLength": 1 },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "sourceId": { "type": "string", "minLength": 1 },
+        "retrieved": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+      }
+    },
+    "model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "modelGroup", "statements", "retailModelNumbers"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "modelGroup": { "type": "string", "minLength": 1 },
+        "statements": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/statement" }
+        },
+        "retailModelNumbers": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/statement" }
+        }
+      }
+    },
+    "firmware": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "version",
+        "listPosition",
+        "evidence",
+        "evidenceScope",
+        "sourceId",
+        "retrieved",
+        "published",
+        "publishedStatus",
+        "quotedStatements",
+        "featureDetail"
+      ],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "version": { "type": "string", "pattern": "^[0-9]{2}\\.[0-9]{2}-[0-9]{2}\\.[0-9]{2}\\.[0-9]{2}$" },
+        "listPosition": { "type": "integer", "minimum": 1 },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "evidenceScope": { "type": "string", "minLength": 1 },
+        "sourceId": { "type": "string", "minLength": 1 },
+        "retrieved": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "published": { "type": ["string", "null"] },
+        "publishedStatus": { "$ref": "#/$defs/evidence" },
+        "quotedStatements": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/statement" }
+        },
+        "featureDetail": { "$ref": "#/$defs/evidence" }
+      }
+    },
+    "compatibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["defaultStatus", "modelGroupIds", "firmwareIds", "entries"],
+      "properties": {
+        "defaultStatus": { "const": "Unknown" },
+        "modelGroupIds": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "firmwareIds": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "entries": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/compatibilityEntry" }
+        }
+      }
+    },
+    "compatibilityEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "modelGroupId",
+        "firmwareId",
+        "status",
+        "relation",
+        "statement",
+        "sourceId",
+        "retrieved",
+        "limit"
+      ],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "modelGroupId": { "type": "string", "minLength": 1 },
+        "firmwareId": { "type": "string", "minLength": 1 },
+        "status": { "$ref": "#/$defs/evidence" },
+        "relation": { "type": "string", "minLength": 1 },
+        "statement": { "type": "string", "minLength": 1 },
+        "sourceId": { "type": "string", "minLength": 1 },
+        "retrieved": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "limit": { "type": "string", "minLength": 1 }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "question", "status"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "question": { "type": "string", "minLength": 1 },
+        "status": { "$ref": "#/$defs/evidence" }
+      }
+    }
+  }
+}

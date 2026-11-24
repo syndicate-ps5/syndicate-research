@@ -45,6 +45,7 @@ Sachaussagen tragen zusätzlich eine Evidenzstufe. Die Stufen und die Aufnahmere
 ├── CONTRIBUTING.md
 ├── .gitignore
 ├── docs/
+├── data/
 ├── LICENSING.md
 ├── LICENSES/
 │   └── Apache-2.0.txt

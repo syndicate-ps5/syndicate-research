@@ -13,3 +13,5 @@ Jede Versionsangabe braucht eine Primärquelle, ein Abrufdatum und eine Evidenzs
 ## Aktueller Inhalt
 
 [`system-software.md`](system-software.md) übernimmt den jüngsten Listeneintrag der öffentlichen Sony-Versionsliste und drei Modellbezüge, die diese Liste selbst nennt. Die übrige Merkmalsliste ist nicht kopiert. Nicht ausgewertete Modellbezüge derselben Liste sind Researching.
+
+[`uebersicht.md`](uebersicht.md) führt dieselben Sätze fort und verzeichnet die 40 Versionsüberschriften der Liste in [`data/research.json`](../data/research.json). Merkmalstexte außerhalb der bereits zitierten Sätze bleiben Unknown. Die Kompatibilitätsmatrix hat den Grundstatus Unknown.

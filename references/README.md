@@ -28,7 +28,7 @@ Nicht übernommen sind Porttabellen, Maße, Preise und weitere Verkaufsnummern.
 
 | Quelle | Verwendet für |
 | --- | --- |
-| <https://www.playstation.com/en-us/support/hardware/ps5/system-software-info/> | Jüngster Listeneintrag `26.07-14.23.00` und die drei in [`system-software.md`](../firmware-notes/system-software.md) zitierten Modellbezüge. |
+| <https://www.playstation.com/en-us/support/hardware/ps5/system-software-info/> | Jüngster Listeneintrag `26.07-14.23.00`, die drei in [`system-software.md`](../firmware-notes/system-software.md) zitierten Modellbezüge und die 40 Versionsüberschriften in [`data/research.json`](../data/research.json). Die übrigen Merkmalstexte sind nicht übernommen. |
 | <https://www.playstation.com/en-us/support/hardware/ps5/system-software/> | Hinweis, dass die abgerufene Verteilerseite keine Versionsnummer der genannten Form enthält. |
 
 ## Architektur
