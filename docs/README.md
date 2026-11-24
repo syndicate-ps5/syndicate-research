@@ -12,13 +12,16 @@ Aufgenommen werden nur verifizierte Inhalte mit Quellenangabe. Interne oder unve
 
 | Verzeichnis | Gegenstand |
 | --- | --- |
-| [`hardware/`](../hardware/README.md) | Von Sony öffentlich benannte Modellgruppen |
-| [`firmware-notes/`](../firmware-notes/README.md) | Verifizierte Firmware-Notizen |
-| [`architecture/`](../architecture/README.md) | Verifizierte Architekturnotizen |
+| [`hardware/`](../hardware/README.md) | Belegte Modellgruppen |
+| [`firmware-notes/`](../firmware-notes/README.md) | Belegte Systemsoftware-Angaben |
+| [`architecture/`](../architecture/README.md) | Belegte Produktaussagen und offene Architekturfragen |
 | [`development-notes/`](../development-notes/README.md) | Verifizierte Notizen zu dokumentierten Entwicklungswegen |
 | [`methodology/`](../methodology/README.md) | Evidenzstufen und Aufnahmekriterien |
 | [`references/`](../references/README.md) | Quellenverzeichnis |
 | [`glossary/`](../glossary/README.md) | Festgelegte Begriffe |
+| [`history-remediation.md`](history-remediation.md) | Plan zur späteren Bereinigung der Git-Historie, ohne Umschreibung |
+| [`pruefung-und-veroeffentlichung.md`](pruefung-und-veroeffentlichung.md) | Prüfung und Aufnahme neuer Forschungssätze |
+| [`schnittstelle-research-lab.md`](schnittstelle-research-lab.md) | Vorgeschlagene Schnittstelle zum Labor, ohne Datenübernahme |
 
 Sicherheitsgrenzen stehen in [`SECURITY.md`](../SECURITY.md). Beiträge folgen [`CONTRIBUTING.md`](../CONTRIBUTING.md).
 
@@ -26,4 +29,4 @@ Verantwortungsvolle Sicherheitsforschung hat hier keinen eigenen Inhaltsordner. 
 
 ## Aktueller Inhalt
 
-Keine eigenen Sachverhalte. Die Dokumentationssprache ist Deutsch.
+Die Dokumentationssprache ist Deutsch. [`history-remediation.md`](history-remediation.md) beschreibt nur das spätere Vorgehen für die Git-Historie. [`pruefung-und-veroeffentlichung.md`](pruefung-und-veroeffentlichung.md) beschreibt das Prüfverfahren. Forschungsaussagen zu Modellen und Firmware stehen in den Fachordnern und in [`data/research.json`](../data/research.json).

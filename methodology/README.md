@@ -16,9 +16,10 @@ Aufgenommen werden nur verifizierte Inhalte mit Quellenangabe. Interne oder unve
 | Independently Reproduced | Die Aussage wurde außerhalb der Originalquelle nachvollzogen. |
 | Internally Tested | Ein interner Test liegt vor. Das allein reicht für dieses Repository nicht. |
 | Unverified | Die Aussage ist nicht geprüft. |
-| Unknown | Für die Frage gibt es keinen Beleg. |
+| Unknown | Die geprüften Quellen belegen die Aussage nicht. |
+| Researching | Die Frage ist offen. Die Quellenprüfung ist nicht abgeschlossen. |
 
-Publicly Documented und Independently Reproduced können hier erscheinen, wenn der Owner die Veröffentlichung freigibt und die Quelle am Eintrag steht. Internally Tested bleibt in `syndicate-lab`, bis diese Freigabe vorliegt. Unverified wird hier nicht als Ergebnis geführt. Unknown wird ausdrücklich gekennzeichnet.
+Publicly Documented und Independently Reproduced können hier erscheinen, wenn die Quelle am Eintrag steht. Internally Tested bleibt in `syndicate-lab`, bis der Owner die Veröffentlichung freigibt. Unverified wird hier nicht als Ergebnis geführt. Unknown und Researching werden an der offenen Frage ausgeschrieben. Researching ist kein Beleg und berechtigt nicht, eine Vermutung einzutragen.
 
 ## Aufgabenstatus
 

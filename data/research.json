@@ -1,0 +1,946 @@
+{
+  "schemaVersion": "1.0.0",
+  "retrieved": "2026-11-24",
+  "rules": [
+    "Publicly Documented bedeutet, dass der Wortlaut auf der genannten Quelle am Abrufdatum stand.",
+    "featureDetail Unknown bedeutet, dass die Merkmalsliste dieser Version hier nicht übernommen wurde.",
+    "published null und publishedStatus Unknown bedeutet, dass die Quelle kein Veröffentlichungsdatum nennt.",
+    "Jede Kombination aus Modellgruppe und Firmwareversion ohne Eintrag in compatibility.entries ist Unknown.",
+    "Ein Compatibility-Eintrag belegt nur den zitierten Satz, nicht einen Installationstest und nicht eine exklusive Zuordnung.",
+    "Die Bezeichnung PS5 Pro auf der Firmware-Liste wird hier nicht automatisch der Modellgruppe CFI-7000 als Kompatibilität zugeschrieben.",
+    "Publicly Documented an einem quotedStatement bezeichnet nur diesen einen Satz. featureDetail bleibt Unknown, weil die übrigen Funktionen der Version nicht übernommen sind."
+  ],
+  "sources": [
+    {
+      "id": "sony-ps5-usb-ports",
+      "title": "USB ports guide for PS5 consoles",
+      "url": "https://www.playstation.com/en-us/support/hardware/ps5-usb-ports-guide/",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown"
+    },
+    {
+      "id": "sony-ps5-get-started",
+      "title": "Getting started with your new PS5 console",
+      "url": "https://www.playstation.com/en-us/support/hardware/ps5-get-started-set-up/",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown"
+    },
+    {
+      "id": "sony-ps5-support-hardware",
+      "title": "PlayStation 5 Support",
+      "url": "https://www.playstation.com/en-us/support/hardware/ps5/",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown"
+    },
+    {
+      "id": "sony-ps5-product-us",
+      "title": "PlayStation 5 product page (US)",
+      "url": "https://www.playstation.com/en-us/ps5/",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown"
+    },
+    {
+      "id": "sony-ps5-disc-gb",
+      "title": "PS5 Disc Console (GB)",
+      "url": "https://www.playstation.com/en-gb/ps5/1-tb-disc/",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown"
+    },
+    {
+      "id": "sony-ps5-digital-gb",
+      "title": "PS5 Digital Edition 825 GB (GB)",
+      "url": "https://www.playstation.com/en-gb/ps5/digital-edition-825-gb/",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown"
+    },
+    {
+      "id": "sony-ps5-covers-slim-gb",
+      "title": "PS5 console covers, model group slim (GB)",
+      "url": "https://www.playstation.com/en-gb/accessories/ps5-console-covers/slim/",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown"
+    },
+    {
+      "id": "sony-ps5-system-software-features",
+      "title": "System software update features for PS5 consoles",
+      "url": "https://www.playstation.com/en-us/support/hardware/ps5/system-software-info/",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown"
+    },
+    {
+      "id": "sony-ps5-system-software-distribution",
+      "title": "How to update system software on a PS5 console",
+      "url": "https://www.playstation.com/en-us/support/hardware/ps5/system-software/",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "assignmentNote": "Diese Quelle ist die Verteilerseite, auf die die Versionsliste verweist. Im am 2026-11-24 abgerufenen HTML steht keine Versionsnummer der Form NN.NN-NN.NN.NN. Deshalb ist sie keinem Firmware-Satz zugeordnet. Der Befund steht in firmware-notes/uebersicht.md."
+    }
+  ],
+  "models": [
+    {
+      "id": "cfi-1000",
+      "modelGroup": "CFI-1000",
+      "statements": [
+        {
+          "id": "cfi-1000-usb",
+          "text": "PS5 consoles (CFI-1000 model group)",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-usb-ports",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-1000-setup",
+          "text": "PS5 console (CFI-1000 model group)",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-get-started",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-1000-support",
+          "text": "PS5 console (CFI-1000 model group)",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-support-hardware",
+          "retrieved": "2026-11-24"
+        }
+      ],
+      "retailModelNumbers": []
+    },
+    {
+      "id": "cfi-2000",
+      "modelGroup": "CFI-2000",
+      "statements": [
+        {
+          "id": "cfi-2000-usb-group",
+          "text": "PS5 consoles (CFI-2000/7000 model group)",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-usb-ports",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-2000-usb-example",
+          "text": "a console from the CFI-2000 model group",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-usb-ports",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-2000-setup",
+          "text": "PS5 console (CFI-2000 model group - slim)",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-get-started",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-2000-product",
+          "text": "CFI-2000 model group – slim",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-product-us",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-2000-with-2100",
+          "text": "CFI-2000 and CFI 2100 model groups – slim",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-product-us",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-2000-covers",
+          "text": "CFI-2000 model group – slim & CFI-2100",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-covers-slim-gb",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-2000-support-group",
+          "text": "PS5 console (CFI-2000/2100/7000 model group)",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-support-hardware",
+          "retrieved": "2026-11-24"
+        }
+      ],
+      "retailModelNumbers": []
+    },
+    {
+      "id": "cfi-2100",
+      "modelGroup": "CFI-2100",
+      "statements": [
+        {
+          "id": "cfi-2100-disc",
+          "text": "PS5® console (CFI-2100 model group – slim)",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-disc-gb",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-2100-disc-accessories",
+          "text": "The CFI-2100 models are compatible with PS5 accessories for CFI-2000 products, including Console Covers (sold separately).",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-disc-gb",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-2100-digital",
+          "text": "PS5® Digital Edition (CFI-2100 model group – slim)",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-digital-gb",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-2100-digital-accessories",
+          "text": "The CFI-2100 models are compatible with PS5 accessories for CFI-2000 products, including Console Covers and Disc Drives (sold separately).",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-digital-gb",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-2100-us-spelling",
+          "text": "CFI 2100 model groups – slim",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-product-us",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-2100-covers",
+          "text": "CFI-2000 model group – slim & CFI-2100",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-covers-slim-gb",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-2100-support-group",
+          "text": "PS5 console (CFI-2000/2100/7000 model group)",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-support-hardware",
+          "retrieved": "2026-11-24"
+        }
+      ],
+      "retailModelNumbers": [
+        {
+          "id": "cfi-2116b01y",
+          "text": "CFI-2116B01Y",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-digital-gb",
+          "retrieved": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "cfi-7000",
+      "modelGroup": "CFI-7000",
+      "statements": [
+        {
+          "id": "cfi-7000-setup",
+          "text": "PS5 Pro console (CFI-7000 model group)",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-get-started",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-7000-usb-group",
+          "text": "PS5 consoles (CFI-2000/7000 model group)",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-usb-ports",
+          "retrieved": "2026-11-24"
+        },
+        {
+          "id": "cfi-7000-support-group",
+          "text": "PS5 console (CFI-2000/2100/7000 model group)",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-support-hardware",
+          "retrieved": "2026-11-24"
+        }
+      ],
+      "retailModelNumbers": []
+    }
+  ],
+  "firmware": [
+    {
+      "id": "fw-26.07-14.23.00",
+      "version": "26.07-14.23.00",
+      "listPosition": 1,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [
+        {
+          "id": "fw-26.07-14.23.00-security",
+          "text": "We’ve made some security fixes to the system software.",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-system-software-features",
+          "retrieved": "2026-11-24"
+        }
+      ],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-26.07-14.22.00",
+      "version": "26.07-14.22.00",
+      "listPosition": 2,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-26.07-14.20.00",
+      "version": "26.07-14.20.00",
+      "listPosition": 3,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-26.06-14.10.00",
+      "version": "26.06-14.10.00",
+      "listPosition": 4,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-26.06-14.00.00",
+      "version": "26.06-14.00.00",
+      "listPosition": 5,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [
+        {
+          "id": "fw-26.06-14.00.00-ps5-pro",
+          "text": "This feature is available only on PS5 Pro.",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-system-software-features",
+          "retrieved": "2026-11-24"
+        }
+      ],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-26.05-13.60.00",
+      "version": "26.05-13.60.00",
+      "listPosition": 6,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-26.04-13.42.00",
+      "version": "26.04-13.42.00",
+      "listPosition": 7,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-26.04-13.40.00",
+      "version": "26.04-13.40.00",
+      "listPosition": 8,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-26.03-13.20.00",
+      "version": "26.03-13.20.00",
+      "listPosition": 9,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-26.02-13.00.00",
+      "version": "26.02-13.00.00",
+      "listPosition": 10,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [
+        {
+          "id": "fw-26.02-13.00.00-ps5-pro",
+          "text": "This feature is available only on PS5 Pro.",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-system-software-features",
+          "retrieved": "2026-11-24"
+        }
+      ],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-26.01-12.70.00",
+      "version": "26.01-12.70.00",
+      "listPosition": 11,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-26.01-12.60.00",
+      "version": "26.01-12.60.00",
+      "listPosition": 12,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-25.08-12.40.00",
+      "version": "25.08-12.40.00",
+      "listPosition": 13,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-25.07-12.20.00",
+      "version": "25.07-12.20.00",
+      "listPosition": 14,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-25.06-12.02.00",
+      "version": "25.06-12.02.00",
+      "listPosition": 15,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-25.06-12.00.00",
+      "version": "25.06-12.00.00",
+      "listPosition": 16,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-25.05-11.60.00",
+      "version": "25.05-11.60.00",
+      "listPosition": 17,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-25.04-11.40.00",
+      "version": "25.04-11.40.00",
+      "listPosition": 18,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-25.03-11.20.00",
+      "version": "25.03-11.20.00",
+      "listPosition": 19,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-25.02-11.00.00",
+      "version": "25.02-11.00.00",
+      "listPosition": 20,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-25.01-10.60.00",
+      "version": "25.01-10.60.00",
+      "listPosition": 21,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-24.08-10.40.00",
+      "version": "24.08-10.40.00",
+      "listPosition": 22,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-24.07-10.20.00",
+      "version": "24.07-10.20.00",
+      "listPosition": 23,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-24.06-10.01.00",
+      "version": "24.06-10.01.00",
+      "listPosition": 24,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-24.06-10.00.00",
+      "version": "24.06-10.00.00",
+      "listPosition": 25,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [
+        {
+          "id": "fw-24.06-10.00.00-cfi-2000",
+          "text": "Adaptive charging is supported on the PS5 CFI-2000 model group, using the USB Type-C port.",
+          "evidence": "Publicly Documented",
+          "sourceId": "sony-ps5-system-software-features",
+          "retrieved": "2026-11-24"
+        }
+      ],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-24.05-09.60.00",
+      "version": "24.05-09.60.00",
+      "listPosition": 26,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-24.04-09.40.00",
+      "version": "24.04-09.40.00",
+      "listPosition": 27,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-24.03-09.20.00",
+      "version": "24.03-09.20.00",
+      "listPosition": 28,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-24.02-09.00.00",
+      "version": "24.02-09.00.00",
+      "listPosition": 29,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-24.01-08.60.00",
+      "version": "24.01-08.60.00",
+      "listPosition": 30,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-23.02-08.40.00",
+      "version": "23.02-08.40.00",
+      "listPosition": 31,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-23.02-08.20.02",
+      "version": "23.02-08.20.02",
+      "listPosition": 32,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-23.02-08.20.00",
+      "version": "23.02-08.20.00",
+      "listPosition": 33,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-23.02-08.00.00",
+      "version": "23.02-08.00.00",
+      "listPosition": 34,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-23.01-07.61.00",
+      "version": "23.01-07.61.00",
+      "listPosition": 35,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-23.01-07.60.00",
+      "version": "23.01-07.60.00",
+      "listPosition": 36,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-23.01-07.40.00",
+      "version": "23.01-07.40.00",
+      "listPosition": 37,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-23.01-07.20.00",
+      "version": "23.01-07.20.00",
+      "listPosition": 38,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-23.01-07.01.01",
+      "version": "23.01-07.01.01",
+      "listPosition": 39,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    },
+    {
+      "id": "fw-23.01-07.01.00",
+      "version": "23.01-07.01.00",
+      "listPosition": 40,
+      "evidence": "Publicly Documented",
+      "evidenceScope": "Die Versionsnummer steht als Überschrift auf der öffentlichen Sony-Liste. Publicly Documented gilt für diese Nennung. Die vollständige Beschreibung aller Funktionen dieser Version ist nicht übernommen.",
+      "sourceId": "sony-ps5-system-software-features",
+      "retrieved": "2026-11-24",
+      "published": null,
+      "publishedStatus": "Unknown",
+      "quotedStatements": [],
+      "featureDetail": "Unknown"
+    }
+  ],
+  "compatibility": {
+    "defaultStatus": "Unknown",
+    "modelGroupIds": [
+      "cfi-1000",
+      "cfi-2000",
+      "cfi-2100",
+      "cfi-7000"
+    ],
+    "firmwareIds": [
+      "fw-26.07-14.23.00",
+      "fw-26.07-14.22.00",
+      "fw-26.07-14.20.00",
+      "fw-26.06-14.10.00",
+      "fw-26.06-14.00.00",
+      "fw-26.05-13.60.00",
+      "fw-26.04-13.42.00",
+      "fw-26.04-13.40.00",
+      "fw-26.03-13.20.00",
+      "fw-26.02-13.00.00",
+      "fw-26.01-12.70.00",
+      "fw-26.01-12.60.00",
+      "fw-25.08-12.40.00",
+      "fw-25.07-12.20.00",
+      "fw-25.06-12.02.00",
+      "fw-25.06-12.00.00",
+      "fw-25.05-11.60.00",
+      "fw-25.04-11.40.00",
+      "fw-25.03-11.20.00",
+      "fw-25.02-11.00.00",
+      "fw-25.01-10.60.00",
+      "fw-24.08-10.40.00",
+      "fw-24.07-10.20.00",
+      "fw-24.06-10.01.00",
+      "fw-24.06-10.00.00",
+      "fw-24.05-09.60.00",
+      "fw-24.04-09.40.00",
+      "fw-24.03-09.20.00",
+      "fw-24.02-09.00.00",
+      "fw-24.01-08.60.00",
+      "fw-23.02-08.40.00",
+      "fw-23.02-08.20.02",
+      "fw-23.02-08.20.00",
+      "fw-23.02-08.00.00",
+      "fw-23.01-07.61.00",
+      "fw-23.01-07.60.00",
+      "fw-23.01-07.40.00",
+      "fw-23.01-07.20.00",
+      "fw-23.01-07.01.01",
+      "fw-23.01-07.01.00"
+    ],
+    "entries": [
+      {
+        "id": "cfi-2000--fw-24.06-10.00.00--adaptive-charging",
+        "modelGroupId": "cfi-2000",
+        "firmwareId": "fw-24.06-10.00.00",
+        "status": "Publicly Documented",
+        "relation": "source-mentions-model-group",
+        "statement": "Adaptive charging is supported on the PS5 CFI-2000 model group, using the USB Type-C port.",
+        "sourceId": "sony-ps5-system-software-features",
+        "retrieved": "2026-11-24",
+        "limit": "Der Satz nennt die Funktion Adaptive Charging für die Modellgruppe CFI-2000. Er belegt nicht, welche Modellgruppen diese Versionsnummer installieren können."
+      }
+    ]
+  },
+  "openQuestions": [
+    {
+      "id": "q-original",
+      "question": "Welche offizielle Quelle setzt die Modellgruppe CFI-1000 mit dem Wort Original gleich?",
+      "status": "Unknown"
+    },
+    {
+      "id": "q-pro-locales",
+      "question": "Verwendet jede Landesfassung von Sony die Bezeichnung PS5 Pro ausschließlich für die Modellgruppe CFI-7000?",
+      "status": "Researching"
+    },
+    {
+      "id": "q-pro-firmware-group",
+      "question": "Darf der Satz available only on PS5 Pro bei den Versionen 26.06-14.00.00 und 26.02-13.00.00 als Kompatibilität der Modellgruppe CFI-7000 eingetragen werden?",
+      "status": "Unknown"
+    },
+    {
+      "id": "q-sku-21",
+      "question": "Gehört jede Verkaufsnummer mit der Ziffernfolge 21 zur Modellgruppe CFI-2100?",
+      "status": "Unknown"
+    },
+    {
+      "id": "q-2100-diff",
+      "question": "Welche Hardwareunterschiede bestehen zwischen CFI-2000 und CFI-2100 über den belegten Zubehörsatz hinaus?",
+      "status": "Unknown"
+    },
+    {
+      "id": "q-more-groups",
+      "question": "Ist die Liste CFI-1000, CFI-2000, CFI-2100 und CFI-7000 die vollständige Menge der Sony-Modellgruppen?",
+      "status": "Unknown"
+    },
+    {
+      "id": "q-version-dates",
+      "question": "Welches Veröffentlichungsdatum hat jede Versionsnummer der Systemsoftware-Liste?",
+      "status": "Unknown"
+    },
+    {
+      "id": "q-version-before",
+      "question": "Gibt es Systemsoftware-Versionen vor 23.01-07.01.00, die auf der abgerufenen Liste nicht stehen?",
+      "status": "Unknown"
+    },
+    {
+      "id": "q-builds",
+      "question": "Erhalten Modellgruppen unterschiedliche Builds mit derselben Versionsnummer?",
+      "status": "Unknown"
+    },
+    {
+      "id": "q-file-map",
+      "question": "Welche Update-Datei gehört zu welcher Versionsnummer?",
+      "status": "Unknown"
+    },
+    {
+      "id": "q-other-model-notes",
+      "question": "Welche weiteren Modellbezüge stehen in den nicht ausgewerteten Merkmalstexten der Versionsliste?",
+      "status": "Researching"
+    },
+    {
+      "id": "q-retail-1000-2000-7000",
+      "question": "Welche einzelnen Verkaufsnummern gehören zu CFI-1000, CFI-2000 und CFI-7000?",
+      "status": "Unknown"
+    }
+  ]
+}

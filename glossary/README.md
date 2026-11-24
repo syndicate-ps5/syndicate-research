@@ -29,7 +29,8 @@ Implemented bedeutet nicht automatisch Verified.
 | Independently Reproduced | Außerhalb der Originalquelle nachvollzogen |
 | Internally Tested | Intern geprüft; allein noch nicht veröffentlichungsreif |
 | Unverified | Nicht geprüft |
-| Unknown | Ohne Beleg |
+| Unknown | In den geprüften Quellen nicht belegt |
+| Researching | Quellenprüfung nicht abgeschlossen; keine Sachaussage |
 
 Die Anwendung dieser Stufen steht in [`methodology/README.md`](../methodology/README.md).
 
@@ -37,6 +38,9 @@ Die Anwendung dieser Stufen steht in [`methodology/README.md`](../methodology/RE
 
 | Begriff | Bedeutung |
 | --- | --- |
-| Modellgruppe | Von Sony in einer Primärquelle verwendete Gruppenbezeichnung, derzeit CFI-1000, CFI-2000 und CFI-7000. Quelle: [`hardware/README.md`](../hardware/README.md). |
+| Modellgruppe | Von Sony in einer Primärquelle verwendete Gruppenbezeichnung. Die hier geführten Gruppen sind CFI-1000, CFI-2000, CFI-2100 und CFI-7000. Das ist keine Behauptung, die Liste sei vollständig. Quelle: [`hardware/README.md`](../hardware/README.md). |
+| slim | Von Sony für CFI-2000 und für CFI-2100 verwendeter Zusatz. Keine ausschließliche Zuordnung zu einer Gruppe. |
+| PS5 Pro | Von Sony auf der geprüften Einrichtungsseite für die Modellgruppe CFI-7000 verwendet. |
+| Systemsoftware | Von Sony verwendeter Name der Konsolensoftware. Quelle: [`firmware-notes/system-software.md`](../firmware-notes/system-software.md). |
 | syndicate-research | Dieses öffentliche Repository für veröffentlichungsreife Forschung. |
 | syndicate-lab | Privates Repository für interne und unverifizierte Arbeit. |
