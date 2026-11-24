@@ -10,13 +10,15 @@ Aufgenommen werden nur verifizierte Inhalte mit Quellenangabe. Interne oder unve
 
 Dieses Repository führt die veröffentlichte Datenbasis in [`data/research.json`](../data/research.json) nach [`data/schema.json`](../data/schema.json). Ein fehlender Kompatibilitätseintrag ist Unknown.
 
-Das Labor führt auf `main` von `syndicate-lab` einen lokalen Validator. Er liest drei getrennte Dokumente:
+Das Labor führt auf `main` von `syndicate-lab` den Validator `python3 -m lab`. Er ist lokal mit Python 3.12 ausführbar und kein vollständiger Prüfer für JSON-Schema Draft 2020-12. Er liest drei getrennte Dokumente:
 
 - `compatibility/models.json` gegen `compatibility/schema/compatibility-document.schema.json`
 - `compatibility/firmware.json` gegen dasselbe Schema
 - `research/sources.json` gegen `research/source-document.schema.json`
 
-Diese drei Dokumente verwenden `schema_version` 1, `record_type` und `entries`. Ihr Bestand auf `main` ist leer. Ein fehlender Laboreintrag ist dort ebenfalls Unknown. Der Validator ist kein vollständiger Draft-2020-12-Prüfer. Diese Datei ändert seine Regeln nicht und kopiert keine Sätze hinüber.
+Maßgeblich für Quellen ist `research/sources.json`. `research/sources.md` geht nicht in den Laborbericht ein. `schema_version` muss der Integer 1 sein. Ein Wahrheitswert oder eine Gleitkommazahl ist dort ein Fehler. IDs entsprechen `^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$`. `related_model_entry_id` muss eine `entry_id` im Modelldokument treffen. Hardware-Dokumente dürfen dieses Feld und `firmware_version` nicht enthalten.
+
+Der Laborbericht kennt PASS, FAIL, UNKNOWN und als Gesamtergebnis zusätzlich PARTIAL. PASS entsteht nur, wenn jede Einzelprüfung PASS ist. UNKNOWN ist kein PASS. Ein leerer Bestand erzeugt UNKNOWN für IDs, Dubletten, Eintragsfelder und Referenzen. Das Gesamtergebnis des leeren Bestands ist PARTIAL. Diese drei Dokumente sind auf `main` leer. Ein fehlender Laboreintrag ist Unknown. Diese Datei ändert die Laborregeln nicht und kopiert keine Sätze hinüber.
 
 ## Vorgeschlagene Abbildung
 

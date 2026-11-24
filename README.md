@@ -12,12 +12,9 @@ Der aktuelle Stand ist Phase 2 (Research). Die Notizen beschränken sich auf abg
 
 ## Abgrenzung
 
-| Repository | Rolle |
-| --- | --- |
-| `syndicate-ps5/syndicate-research` (dieses Repository, öffentlich) | Veröffentlichungsreife, verifizierte Forschungsdokumentation |
-| `syndicate-ps5/syndicate-ps5.github.io` (öffentlich) | Website des Projekts, getrennt von dieser Dokumentation |
+Öffentliche Forschung und interne Entwicklung werden getrennt verwaltet. Dieses Repository enthält die öffentliche Forschung. Die Website `syndicate-ps5/syndicate-ps5.github.io` bleibt davon getrennt.
 
-Öffentliche Forschung in diesem Repository und interne Entwicklung sind getrennt. Ein Eintrag wandert erst hierher, wenn Quelle, Evidenzstufe und Veröffentlichungsfreigabe vorliegen.
+Forschungsergebnisse werden erst nach Quellenprüfung, Bewertung der Beleglage und Freigabe veröffentlicht. Ein Eintrag wandert erst hierher, wenn Quelle, Evidenzstufe und Veröffentlichungsfreigabe vorliegen.
 
 ## Statusdefinitionen
 
