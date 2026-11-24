@@ -22,7 +22,7 @@ Geprüft wurden beide Commits auf `main` und der Inhalt aller Blobs.
 
 Die Gmail-Adresse steht in keinem Dateiinhalt. Sie steht nur in den Metadaten von `2e47929`. Der genaue Wert bleibt in diesem Dokument ungenannt und ist mit `git log -1 --format='%an %ae%n%cn %ce' 2e4792908dbd09c3edf3022d50264d70b99c1c51` lesbar.
 
-Es gibt keine Tags und keine weiteren Branches in der geprüften Historie.
+Auf `main` gibt es keine Tags. Inzwischen existiert der Branch `cursor/phase-2-research-e5bf` mit Pull Request #1. Dessen zusätzlicher Commit fügt die private Adresse nicht in Dateiinhalte ein. Die Geschichte dieses Branches enthält weiterhin `2e47929` und `ff83432`. Eine spätere Umschreibung von `main` erfordert, Pull Request #1 auf die neue Historie neu aufzusetzen. Diese Umschreibung ist nicht ausgeführt.
 
 ## Vorgehen nach Freigabe
 
@@ -41,7 +41,7 @@ Nicht verwenden: ein manuelles Ändern nur der Arbeitskopie. Das lässt die Adre
 - Verweise auf die beiden Hashes, einschließlich GitHub-URLs, Review-Kommentare und dieses Dokuments, zeigen nach dem Push nicht mehr auf die aktuelle `main`. Die Commits können bei GitHub noch über die alten URLs erreichbar bleiben.
 - Forks und CI-Caches, die vor der Umschreibung geklont haben, behalten die Adresse. GitHub entfernt verwaiste Commits nicht zuverlässig sofort. Eine vollständige Entfernung aus GitHub-Kopien braucht nach dem Push einen eigenen Antrag an den GitHub-Support und das Löschen oder Neuerstellen bekannter Forks.
 - Das Backup-Bundle und diese Arbeitskopie behalten die Adresse, bis sie gelöscht werden. Das ist beabsichtigt, damit die Umschreibung rückgängig gemacht werden kann.
-- Offene Pull Requests müssen auf die neue Historie neu aufgesetzt werden. Releases gibt es keine.
+- Pull Request #1 auf dem Branch `cursor/phase-2-research-e5bf` muss nach einer späteren Umschreibung neu aufgesetzt werden. Das gilt auch für weitere dann offene Pull Requests. Releases gibt es keine.
 
 ## Status
 

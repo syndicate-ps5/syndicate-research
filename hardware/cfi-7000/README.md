@@ -12,7 +12,7 @@ Aufgenommen werden nur verifizierte Inhalte mit Quellenangabe. Interne oder unve
 
 Evidenzstufe: Publicly Documented. Abgerufen 2026-11-24.
 
-- Die Einrichtung überschreibt einen eigenen Abschnitt mit „PS5 Pro console (CFI-7000 model group)“: <https://www.playstation.com/en-us/support/hardware/ps5-get-started-set-up/>
+- Die Einrichtungsseite führt einen eigenen Abschnitt mit der Überschrift „PS5 Pro console (CFI-7000 model group)“: <https://www.playstation.com/en-us/support/hardware/ps5-get-started-set-up/>
 - Die USB-Ports-Anleitung nennt 7000 nur innerhalb von „CFI-2000/7000 model group“ und hat keine eigene Überschrift für CFI-7000. Das Wort Pro ist dort keine Konsolenbezeichnung: <https://www.playstation.com/en-us/support/hardware/ps5-usb-ports-guide/>
 - Die Support-Übersicht führt CFI-7000 in der gemeinsamen Bildgruppe „CFI-2000/2100/7000 model group“: <https://www.playstation.com/en-us/support/hardware/ps5/>
 

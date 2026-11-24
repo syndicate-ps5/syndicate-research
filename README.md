@@ -10,15 +10,14 @@ Dieses Repository sammelt ausschließlich Inhalte, die geprüft, mit Quelle bele
 
 Der aktuelle Stand ist Phase 2 (Research). Die Notizen beschränken sich auf abgerufene Primärquellen. Offene Punkte sind Unknown oder Researching.
 
-## Abgrenzung zu syndicate-lab
+## Abgrenzung
 
 | Repository | Rolle |
 | --- | --- |
 | `syndicate-ps5/syndicate-research` (dieses Repository, öffentlich) | Veröffentlichungsreife, verifizierte Forschungsdokumentation |
-| `syndicate-ps5/syndicate-lab` (privat) | Interne Entwicklung sowie unverifizierte und noch nicht freigegebene Forschungsdaten |
 | `syndicate-ps5/syndicate-ps5.github.io` (öffentlich) | Website des Projekts, getrennt von dieser Dokumentation |
 
-Interne Messungen, Entwürfe, Logs und nicht freigegebene Auswertungen bleiben in `syndicate-lab`. Ein Eintrag wandert erst hierher, wenn Quelle, Evidenzstufe und Veröffentlichungsfreigabe vorliegen.
+Öffentliche Forschung in diesem Repository und interne Entwicklung sind getrennt. Ein Eintrag wandert erst hierher, wenn Quelle, Evidenzstufe und Veröffentlichungsfreigabe vorliegen.
 
 ## Statusdefinitionen
 
