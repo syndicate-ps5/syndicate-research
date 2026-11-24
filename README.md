@@ -10,15 +10,11 @@ Dieses Repository sammelt ausschließlich Inhalte, die geprüft, mit Quelle bele
 
 Der aktuelle Stand ist Phase 1 (Foundation): Ordnerstruktur und Arbeitsregeln. Weitere Forschungsphasen sind nicht begonnen.
 
-## Abgrenzung zu syndicate-lab
+## Abgrenzung
 
-| Repository | Rolle |
-| --- | --- |
-| `syndicate-ps5/syndicate-research` (dieses Repository, öffentlich) | Veröffentlichungsreife, verifizierte Forschungsdokumentation |
-| `syndicate-ps5/syndicate-lab` (privat) | Interne Entwicklung sowie unverifizierte und noch nicht freigegebene Forschungsdaten |
-| `syndicate-ps5/syndicate-ps5.github.io` (öffentlich) | Website des Projekts, getrennt von dieser Dokumentation |
+Öffentliche Forschung und interne Entwicklung werden getrennt verwaltet. Dieses Repository enthält die öffentliche Forschung. Die Website `syndicate-ps5/syndicate-ps5.github.io` bleibt davon getrennt.
 
-Interne Messungen, Entwürfe, Logs und nicht freigegebene Auswertungen bleiben in `syndicate-lab`. Ein Eintrag wandert erst hierher, wenn Quelle, Evidenzstufe und Veröffentlichungsfreigabe vorliegen.
+Forschungsergebnisse werden erst nach Quellenprüfung, Bewertung der Beleglage und Freigabe veröffentlicht.
 
 ## Statusdefinitionen
 
